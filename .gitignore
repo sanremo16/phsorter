@@ -1,0 +1,45 @@
+#git ignore list
+#ignore all class files
+*.class
+#ignore idea configs
+*.iml
+*//*.iml
+#ignore all target folders
+target/
+/.idea/
+/mdmp/.idea/libraries/*.xml
+/mdmp/.idea/*.xml
+.*.sql
+.*.bat
+.*.xml
+.*.xsd
+.gradle
+.idea
+gradle.properties
+.*.lst
+.*.log
+.release
+USER_INSTALL_ROOT_IS_UNDEFINED
+unitils-local.properties
+config-local.properties
+/mdmp/app/jobs-rest/src/main/resources/local-profile-default-config.properties
+#ignore talend settings files
+/mdmp_talend_workspace/.Java/
+/mdmp_talend_workspace/.JETEmitters/
+/mdmp_talend_workspace/.metadata/
+/mdmp_talend_workspace/MDMP_TALEND_JOBS/.settings/
+/mdmp_talend_workspace/MDMP_TALEND_JOBS/code/routines/
+/mdmp_talend_workspace/MDMP_TALEND_JOBS/sqlPatterns/
+/ui/node_modules/
+/ui/url.js
+talend.project
+/ui/helpers/stubs.js
+initialload.log
+import.log
+
+# ivs-rest static content
+/mdmp/app/rest-ui/src/main/webapp/assets
+/mdmp/app/rest-ui/src/main/webapp/scripts
+/mdmp/app/rest-ui/src/main/webapp/v2
+/mdmp/app/rest-ui/src/main/webapp/css
+/mdmp/app/rest-ui/src/main/webapp/index.html
